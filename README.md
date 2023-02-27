@@ -77,13 +77,38 @@ SECCIÓN 17–3 Resonancia en serie
 
 ![image](https://user-images.githubusercontent.com/116771507/221470248-e24182e8-2a9b-48d0-9de3-de981ee82e33.png)
 
+fr = 1/(2π√LC)
+
+fr = 1/(2π√(1mH x 47uF))= 734 KHz
+
+XL = 2π x fr x L 
+
+XL= 2π (1mH) (734KHz) = 4.61 Ω
+
+Xc= XL = 4.61 Ω
+
+Z = R = 22Ω
+
+I = Vs/Z = 12V/22Ω = 54.5 mA
+
 12. Para el circuito RLC de la figura 17-62, determine la frecuencia resonante.
 
 ![image](https://user-images.githubusercontent.com/116771507/221470289-f308e4b9-61e3-4d6a-baf8-ca989dfe6812.png)
 
+
+I = Vs/Z = 7.07V/10Ω = 7.07 mA
+
+
 14. En la figura 17-62, determine el ángulo de fase entre el voltaje aplicado y la corriente a las frecuencias críticas. ¿Cuál es el ángulo de fase en condición de resonancia?
 
 ![image](https://user-images.githubusercontent.com/116771507/221470319-baf6fc22-f686-4552-9349-4d7c7ae9143e.png)
+
+fr = 1/(2π√(8 uH x 0.015uF)) = 459 KHz
+
+XL= 2π (8 uH) (459KHz) = 23.07 Ω
+
+θ= arctan(X/R) = arctan(23.07Ω/10Ω) = 66.57°
+
 
 PARTE 2: CIRCUITOS EN PARALELO
 
@@ -93,9 +118,17 @@ SECCIÓN 17–4 Impedancia de circuitos RLC en paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/221470365-c9a41da3-e2d0-462a-b926-c00e42d1eb8f.png)
 
+
+I = Vs/z = 5V/100Ω = 50 mA = 50°
+
+
 18. ¿A qué frecuencia el circuito de la figura 17-63 cambia su característica reactiva (de inductiva a capacitiva o viceversa)?
 
 ![image](https://user-images.githubusercontent.com/116771507/221470404-97c6c2f6-6bd3-4f88-96ce-fc5d6d35265d.png)
+
+XL= 2π (15 mH) (12 KHz) = 1.13 KΩ
+
+XL= 1/(2π (12 KHz) (0.022 uF)) = 603Ω
 
 SECCIÓN 17–5 Análisis de circuitos RLC en paralelo
 
@@ -103,14 +136,36 @@ SECCIÓN 17–5 Análisis de circuitos RLC en paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/221470444-ea05f2b0-f741-43f0-a01a-b771b0a2be7f.png)
 
+
+I = Vs/Z = 5V/100Ω = 50 mA
+
+
 SECCIÓN 17–6 Resonancia en paralelo
 
 22. ¿Cuál es la impedancia de un circuito resonante ideal dispuesto en paralelo (sin resistencia en las ramas)?
 
+Zr es inmensamente grande
 
 24. ¿Cuánta corriente se extrae de la fuente de la figura 17-64 en condición de resonancia? ¿Cuáles son las corrientes inductiva y capacitiva en la frecuencia resonante?
 
 ![image](https://user-images.githubusercontent.com/116771507/221470539-9eec3021-f2eb-4b94-95ae-11dd96ca0641.png)
+
+fr = √(1-(Rw^2C)/L)/2π√LC 
+
+fr = √(1-(((20Ω)^2 x (47pF))/50 mH)/2π√(50 mH x 47 pF)
+
+fr = 104 KHz
+
+XL = 2πfrL = 2π(104Hz)(50mH) = 32.6 Ω
+
+Q = XL/Rw = 32.6kΩ/20Ω = 1630
+
+Zr= 20Ω(1630^2 + 1) = 53.1 MΩ
+
+Itot= Vs/Zr = 6.3V/53.1MΩ = 119 nA
+
+Ic = IL = 6.3V/√((20Ω)^2 + (32.6Ω)^2) = 193 uA
+
 
 PARTE 3: CIRCUITOS EN SERIE-PARALELO
 
