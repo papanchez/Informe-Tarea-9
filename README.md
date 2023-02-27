@@ -309,13 +309,49 @@ e)5 KHz ==> Es rechazada.
 
 ![image](https://user-images.githubusercontent.com/116771507/221471253-e45918cd-210c-4ad4-8254-236e38cfcf58.png)
 
+a) f = 60 Hz
+
+fc = 1/(2π^2RC) = 1/(2 x π x (100 Ω)(10 uF)) = 0.16 kHz
+
+b) f = 400 Hz
+
+fc = 1/(2π^2RC) = 1/(2 x π x (47 Ω)(8.2 uF)) = 0.41 kHz
+
+c) f = 1 KHz
+
+fc = 1/(2π^2RC) = 1/(2 x π x (330 Ω)(5 mF)) = 96.45 kHz
+
+d) f = 2 kHz
+
+fc = 1/(2π^2RC) = 1/(2 x π x (10 Ω)(80 uF)) = 0.20 kHz
+
+
 6. Determine la frecuencia crítica en cada una de las posiciones del interruptor en la red de filtros conmutados de la figura 18-40.
 
 ![image](https://user-images.githubusercontent.com/116771507/221471283-557ae6e8-1d30-458b-b05e-23e3b1ea3d6e.png)
 
+1) 
+
+fc = 1/(2π^2RC) = 1/(2 x π x (10 kΩ)(0.01 uF)) = 1.59 kHz
+
+2)
+
+fc = 1/(2π^2RC) = 1/(2 x π x (10 kΩ)(0.022 uF+0.047uF)) = 0.26 kHz
+
+3)
+
+fc = 1/(2π^2RC) = 1/(2 x π x (10 kΩ)(0.022 uF+ 0.047uF + 1uF)) = 14.88 kHz
+
+4) 
+
+fc = 1/(2π^2RC) = 1/(2 x π x (10 kΩ)(0.001 uF)) = 15.9 kHz
+
+
 8. En cada uno de los casos siguientes, exprese la relación de voltaje en dB:
 
 a)Vent = 1V ;  Vsal = 1V
+
+dB= 20 x log(Vsal/Vent) = 20 x log(1/1) = 0 dB
 
 b)Vent = 5V ;  Vsal = 3V
 
