@@ -22,16 +22,50 @@ SECCIÓN 17–1 Impedancia de circuitos RLC en serie
 
 ![image](https://user-images.githubusercontent.com/116771507/221469811-6b0122bf-b8e3-4933-8a2e-cecbbbf4747f.png)
 
+Z=√(R^2+(XL-Xc)^2)
+
+Z=√((47Ω)^2+(80Ω-35Ω)^2)= 65.1Ω
+
 
 4. Para el circuito de la figura 17-59, determine la reactancia neta que hará que la magnitud de la impedancia sea igual a 100 Ω.
 
 ![image](https://user-images.githubusercontent.com/116771507/221470049-1ad82bab-be0b-49e6-a73f-b23944c41630.png)
+
+Z=√(R^2+(XL-Xc)^2)= 100Ω
+
+Z=√((47Ω)^2+(x)^2)
+
+(47Ω)^2+(x)^2=(100Ω)^2
+
+(x)^2= (100Ω)^2-(47Ω)^2
+
+x = √((100Ω)^2-(47Ω)^2)= 88.27Ω
+
 
 SECCIÓN 17–2 Análisis de circuitos RLC en serie.
 
 6. Trace el diagrama fasorial de voltaje para el circuito de la figura 17-59.
 
 ![image](https://user-images.githubusercontent.com/116771507/221470101-8a362652-99c7-4e7a-a42f-b3a56fd0d357.png)
+
+Z=√(R^2+(XL-Xc)^2)
+
+Z=√((47Ω)^2+(80Ω-35Ω)^2) = 65.1Ω
+
+I= Vs/Z= 4V/65.1Ω = 61.4 mA
+
+VR= I x R = (61.4 mA) (47 Ω) = 2.89V
+
+VL= I x XL = (61.4 mA) (80 Ω) = 4.91V
+
+VC= I x Xc = (61.4 mA) (35 Ω) = 2.15V
+
+θ= arctan(X/R) 
+
+θ= arctan(45Ω/47Ω) = 43.8°
+
+![image](https://user-images.githubusercontent.com/116771507/221473105-41ee79bf-906d-4ece-a6e5-bf06973f551b.png)
+
 
 SECCIÓN 17–3 Resonancia en serie
 
