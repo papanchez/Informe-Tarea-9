@@ -130,6 +130,7 @@ XL= 2π (15 mH) (12 KHz) = 1.13 KΩ
 
 XL= 1/(2π (12 KHz) (0.022 uF)) = 603Ω
 
+
 SECCIÓN 17–5 Análisis de circuitos RLC en paralelo
 
 20. Determine la impedancia total del circuito de la figura 17-63 a 50 kHz. 
@@ -175,28 +176,98 @@ SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
 
 ![image](https://user-images.githubusercontent.com/116771507/221470573-0f54612f-c186-47bb-803f-fbd6cba44708.png)
 
+
+CIRCUITO A)
+
+Q = XL/Rw = 100Ω/220Ω = 0.45
+
+Zr= Rw(Q^2 + 1)
+
+Zr= 220Ω(0.45^2 + 1) = 264.55Ω
+
+CIRCUITO B)
+
+Q = XL/Rw = 8KΩ/12KΩ = 0.67
+
+Zr= Rw(Q^2 + 1)
+
+Zr= 12KΩ(0.67^2 + 1) = 17.38 KΩ
+
+
+
+
 28. Determine el voltaje entre las terminales de cada elemento mostrado en la figura 17-66, y expréselo en forma polar.
 
 ![image](https://user-images.githubusercontent.com/116771507/221470627-dc11f9fb-0318-4552-9176-fd252c4b3b68.png)
+
+Xc = 1/2π(2KHz)(0.0047 uF) = 16.93 kΩ
+
+XL = 2π(2KHz)(15 H) = 18.85Ω
+
+IR1 = 12V/√((33kΩ)^2+(1.5H)^2) = 363 uA
+
+IR2 = 12V/√((22kΩ)^2+(1.5H)^2) = 545 uA
+
+VR1 = (363 uA)(33kΩ) = 1.93V
+
+VR2 = (545 uA)(22kΩ) = 1.10V
+
+VL = (363 uA)(18.85kΩ) = 6.84V
+
+Vc = (545 uA)(16.93kΩ) = 2.13V
 
 
 30. ¿Cuál es la corriente a través de R2 en la figura 17-67?
 
 ![image](https://user-images.githubusercontent.com/116771507/221470659-6bb408ae-c9f3-4c9a-939c-ec87d896a3f7.png)
 
+IR2 = Vs/R2 = 115V/100Ω = 1.15 A
+
 32. Determine la resistencia y la reactancia totales en la figura 17-68.
 
 ![image](https://user-images.githubusercontent.com/116771507/221470693-191376be-9084-48b9-be1a-61014ac0216b.png)
+
+Xtot = 1/ (1/5KΩ + 1/10kΩ) = 3.33kΩ
+
+Z = (100kΩ x 3.33kΩ)/√((10kΩ)^2+(3.33kΩ)^2) = 3.16kΩ
+
+θ= arctan(X/R) = arctan(10kΩ/3.33kΩ) = 71.6°
+
+RT= (3.16kΩ)cos(71.6°) = 997Ω
+
+Xtot= (3.16kΩ)sin(71.6°) = 3kΩ
 
 34. Determine si existe un valor de C que hará Vab=0V en la figura 17-69. Si no lo hay, explique la razón
 
 ![image](https://user-images.githubusercontent.com/116771507/221470780-f1516d2f-a735-488d-a497-d836f42681a8.png)
 
+Vab = 0V ; Va = Vb
+
+XL1= 2π(3 kHz)(12mH) = 226Ω
+
+XL2= 2π(3 kHz)(8mH) = 151Ω
+
+Va = VL1 = (226Ω / √((180Ω)^2+(226Ω)^2) x 12V = 9.38V
+
+Vab no puede ser igual a 0V debido a que la rama LC no presenta la resistencia, por lo que el voltaje ab solo puede tener un ángulo de fase de 0°, 90° y -90°, por lo que Va no es igual que Vb en magnitud de ángulo de fase.
+
 36. ¿Cuántas frecuencias resonantes hay en el circuito de la figura 17-70 ¿Por qué?
 
 ![image](https://user-images.githubusercontent.com/116771507/221470809-319eae68-5852-4fca-a7e1-c1c0e18f080c.png)
 
+fr(paralelo) , fr(serie) ==> Hay dos frecuencias resonantes en el circuito debido a que se necesecita calcular la frecuencia resonante paralela y en serie.
+
  38. Diseñe un red resonante en paralelo usando una sola bobina y capacitores seleccionables mediante un interruptor para producir las siguientes frecuencias resonantes: 8 MHz, 9 MHz, 10 MHz, y 11 MHz. Suponga una bobina de 10 uH con resistencia de devanado de 5 Ω.
+
+![image](https://user-images.githubusercontent.com/116771507/221476843-86bbd304-6b20-4bb6-917a-7463c615e12f.png)
+
+C1 = 1 / (4 x π^2 x (8 MHz)^2 x (10uH)) = 40 pF
+
+C2 = 1 / (4 x π^2 x (9 MHz)^2 x (10uH)) = 31 pF
+
+C3 = 1 / (4 x π^2 x (10 MHz)^2 x (10uH)) = 25 pF
+
+C4 = 1 / (4 x π^2 x (11 MHz)^2 x (10uH)) = 21 pF
 
 
 PARTE 4: TEMAS ESPECIALES
@@ -205,8 +276,18 @@ SECCIÓN 17–8 Ancho de banda de circuitos resonantes
 
 40. Si la frecuencia crítica baja es de 2400 Hz y la frecuencia crítica alta es de 2800 Hz, ¿cuál es el ancho de banda? ¿Cuál es la frecuencia resonante?
 
+AB = 2800Hz - 2400Hz = 400Hz
+
+fr = (2800Hz + 2400Hz)/2 = 2600 Hz
+
+
 42. En un circuito tanque, ¿qué valores de L y C deberán utilizarse para obtener una frecuencia resonante de 8 kHz? El ancho de banda debe ser de 800 Hz. La resistencia de devanado del circuito es de 10 Ω.
 
+C = 1/(π^2 x fr x Xc) = 1/(π^2 x (8kHz) x (100Ω)) = 1.98 uF
+
+L = 1/(fr^2 x C (4π^2 + 0.025)) = 1/((8KHz)^2 x (1.98uF) (4π^2 + 0.025))
+
+L= 1.99 uH
 
 *CAPÍTULO 18*
 
@@ -214,15 +295,15 @@ SECCIÓN 18–1 Filtros pasabajas
 
 2. Un filtro pasabajas tiene frecuencia crítica de 3 kHz. Determine a cuáles de las siguientes frecuencias se les permite pasar y cuáles son rechazadas:
 
-a)100 Hz
+a)100 Hz ==> Se le permite pasar.
 
-b)1 kHz
+b)1 kHz ==> Se le permite pasar.
 
-c)2 KHz
+c)2 KHz ==> Se le permite pasar.
 
-d)3 KHz
+d)3 KHz ==> Se le permite pasar.
 
-e)5 KHz
+e)5 KHz ==> Es rechazada.
 
 4. ¿Cuál es fc para cada filtro mostrado en la figura 18-38? Determine el voltaje de salida a fc en cada caso cuando Vent= 5V.
 
