@@ -213,7 +213,7 @@ SECCIÓN 18–4 Filtros Rechazabanda
 
 6. BIBLIOGRAFÍA
 
-
+FLOYD, THOMAS L. Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007
 
 
 
