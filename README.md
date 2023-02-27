@@ -355,39 +355,94 @@ dB= 20 x log(Vsal/Vent) = 20 x log(1/1) = 0 dB
 
 b)Vent = 5V ;  Vsal = 3V
 
+dB= 20 x log(Vsal/Vent) = 20 x log(3V/5V) = -4.44 dB
+
 c)Vent = 10V ;  Vsal = 7.07V
 
+dB= 20 x log(Vsal/Vent) = 20 x log(7.07V/10V) = -3.01 dB
+
 d)Vent = 25V ;  Vsal = 5V
+
+dB= 20 x log(Vsal/Vent) = 20 x log(5V/25V) = -13.98 dB
 
 10. Para cada filtro RC pasabajas, determine el voltaje de salida en dB con respecto a una entrada de 0 dB en las siguientes frecuencias (fc = 1 kHz):
 
 a)10 KHz
 
+dB= 20 x log(Vsal/Vent) = 20 x log(10) = 20 dB
+
 b)100 KHz
 
+dB= 20 x log(Vsal/Vent) = 20 x log(100) = 40 dB
+
 c)1 MKz
+
+dB= 20 x log(Vsal/Vent) = 20 x log(10000) = 60 dB
 
 SECCIÓN 18–2 Filtros pasaaltas
 
 12. La frecuencia crítica de un filtro pasaaltas es de 50 Hz. Determine a cuáles de las siguientes frecuencias se les permite pasar y cuáles son rechazadas:
 
-a) 1 Hz 
+a) 1 Hz ==> Es rechazada
 
-b) 20 Hz 
+b) 20 Hz ==> Es rechazada
 
-c) 50 Hz 
+c) 50 Hz ==> Se le permite pasar
 
-d) 60 Hz 
+d) 60 Hz ==> Se le permite pasar
 
-e) 30 kHz
+e) 30 kHz ==> Se le permite pasar
 
 14. ¿Cuál es fc para cada filtro de la figura 18-41? Determine el voltaje de salida a fc en cada caso (Vent = 10 V).
 
 ![image](https://user-images.githubusercontent.com/116771507/221471605-3550d6cb-2f2c-4ea7-b9ab-88c13f53f1f2.png)
 
+a) f=60Hz
+
+fc = 1/2πRC = 1/2π(100Ω)(10uF) = 159.15Hz
+
+Vsal= 0.707V x Vent = 0.707(10V) = 7.07V
+
+b) 400 Hz
+
+fc = 1/2πRC = 1/2π(47Ω)(4.7uF) = 720.48Hz
+
+Vsal= 0.707V x Vent = 0.707(10V) = 7.07V
+
+c) 1KHz
+
+fc = 1/(2π(L/R)) = 1/(2π(2mH/330Ω)) = 10.5 KHz
+
+Vsal= 0.707V x Vent = 0.707(10V) = 7.07V
+
+d) 2KHz
+
+fc = 1/(2π(L/R)) = 1/(2π(80uH/10Ω)) = 200 KHz
+
+Vsal= 0.707V x Vent = 0.707(10V) = 7.07V
+
+
+
+
 16. Determine fc para cada una de las posiciones del interruptor en la figura 18-42.
 
 ![image](https://user-images.githubusercontent.com/116771507/221471637-9468d7ce-2803-4317-aadc-2d0c6d36a92c.png)
+
+1)
+
+fc = 1/2πRC = 1/2π(1KΩ)(0.015uF) = 10.6 kHz
+
+2)
+
+fc = 1/2πRC = 1/2π(1320 Ω)(0.006uF) = 20 kHz
+
+3)
+
+fc = 1/2πRC = 1/2π(860Ω)(0.015uF) = 12.6 kHz
+
+4)
+
+fc = 1/2πRC = 1/2π(1KΩ)(0.015uF) = 10.6 kHz
 
 SECCIÓN 18–3 Filtros pasabanda
 
@@ -395,13 +450,47 @@ SECCIÓN 18–3 Filtros pasabanda
 
 ![image](https://user-images.githubusercontent.com/116771507/221471683-b1c5d0de-c843-46b2-a46b-e8b0592d3638.png)
 
+A)
+
+fo = 1/2π√LC = 1/(2π√(12mH x 0.01uF)) = 14.5 kHz
+
+XL = 2πfL = 2π(14.5 kHz)(12mH) = 1.1 kΩ
+
+Q = 1.1kΩ/10Ω = 110
+
+AB = 14.5kHz/ 110 = 131.8 Hz
+
+
+B)
+
+fo = 1/2π√LC = 1/(2π√(2mH x 0.022uF)) = 24 kHz
+
+XL = 2πfL = 2π(24 kHz)(2mH) = 301.5 Ω
+
+Q = 301.5 Ω/10 Ω = 30.15
+
+AB = 24 kHz/ 30.15 = 796 Hz
+
+
 20. Para cada filtro mostrado en la figura 18-44, determine la frecuencia central de la pasabanda. Ignore RW
 
 ![image](https://user-images.githubusercontent.com/116771507/221471714-0e417e1d-1a24-4a74-b151-722ef0b245d1.png)
 
+a)
+
+fo = 1/2π√LC = 1/(2π√(1H x 10uF)) = 50.32 Hz
+
+b)
+
+fo = 1/2π√LC = 1/(2π√(2.5uH x 25pF)) = 20 GHz
+
+
 22. Determine la separación de las frecuencias centrales en todas las posiciones del interruptor de la figura 18-45. ¿Se traslapan algunas de las respuestas? Suponga que RW 5 = 0Ω para cada bobina.
 
 ![image](https://user-images.githubusercontent.com/116771507/221471780-3491136a-4984-45bf-94c5-7949e4678174.png)
+
+-----------------------------------------------------------------------------
+
 
 SECCIÓN 18–4 Filtros Rechazabanda
 
@@ -409,9 +498,26 @@ SECCIÓN 18–4 Filtros Rechazabanda
 
 ![image](https://user-images.githubusercontent.com/116771507/221471828-6e9c691e-aec9-4bd5-83f4-59651906df5b.png)
 
+a)
+
+fo = 1/2π√LC = 1/(2π√(100uH x 0.0022uF)) = 339,3 kHz
+
+b) 
+
+fo = 1/2π√LC = 1/(2π√(5mH x 0.047uF)) = 10.4 kHz
+
 26. Si la resistencia de las bobinas de la figura 18-47 es de 8 Ω, ¿cuál es el voltaje de salida en condición de resonancia cuando Vent = 50 V?
 
 ![image](https://user-images.githubusercontent.com/116771507/221471881-231a6a1a-e2ef-410b-bb66-cd328c8d5186.png)
+
+a)
+
+Vsal = (Rw/(R+Rw)) x Vent = (8Ω/(1kΩ+8Ω) x 50V = 396.8 mV
+
+b)
+
+Vsal = (Rw/(R+Rw)) x Vent = (8Ω/(2.2kΩ+8Ω) x 50V = 181 mV
+
 
 4. VIDEO
 
