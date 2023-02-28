@@ -498,7 +498,23 @@ fo = 1/2π√LC = 1/(2π√(2.5uH x 25pF)) = 20 GHz
 
 ![image](https://user-images.githubusercontent.com/116771507/221471780-3491136a-4984-45bf-94c5-7949e4678174.png)
 
------------------------------------------------------------------------------
+1) fo= 1/2π√LC = 1/(2π√(50H x 1000pF)) =711762Hz
+
+2) fo= 1/2π√LC = 1/(2π√(50uH x 0.01uF)) =225079Hz
+
+3)fo= 1/2π√LC = 1/(2π√(50uH x 0.010uF)) =711762Hz
+
+4) fo= 1/2π√LC = 1/(2π√(100uH x 1000pF)) =503292Hz
+
+5) fo= 1/2π√LC = 1/(2π√(100uH x 0.01uF)) =159154Hz
+
+6) fo= 1/2π√LC = 1/(2π√(100uH x 0.001uF)) =503292Hz
+
+7) fo= 1/2π√LC = 1/(2π√(270uH x 1000pF)) =306293Hz
+
+8) fo= 1/2π√LC = 1/(2π√(270uH x 0.01uF)) =96858Hz
+
+9)fo= 1/2π√LC = 1/(2π√(270uH x 0.001uF)) =306293Hz
 
 
 SECCIÓN 18–4 Filtros Rechazabanda
@@ -531,6 +547,8 @@ Vsal = (Rw/(R+Rw)) x Vent = (8Ω/(2.2kΩ+8Ω) x 50V = 181 mV
 4. VIDEO
 
 5. CONCLUSIONES
+
+En conclusión tras la realización de este informe se pudo observar que loos circuitos RCL son un tipo de circuito que se compone de tres elementos principales: una resistencia, un inductor y un capacitor. Estos elementos se pueden conectar en serie o en paralelo, y la forma en que se conectan determina las propiedades eléctricas del circuito. Los circuitos RCL son comúnmente utilizados en la electrónica para construir filtros, osciladores y amplificadores. Por otro lado, los decibeles son una unidad de medida que se utiliza para expresar la relación entre dos valores, como la potencia o el voltaje. Esta unidad se deriva de la respuesta logarítmica del oído humano a la intensidad del sonido, lo que significa que un incremento en decibeles representa un incremento en la intensidad del sonido percibido. En el ámbito de la electrónica, los decibeles se utilizan comúnmente para describir la relación de entrada a salida de un filtro pasivo. Es decir, la atenuación o ganancia de la señal en función de la frecuencia. Además, los decibeles también son utilizados en la medición de potencia y voltaje en los sistemas eléctricos. En resumen, los circuitos RCL y los decibeles son conceptos fundamentales en la electrónica y la acústica que nos permiten diseñar y medir sistemas eléctricos y sonoros.
 
 6. BIBLIOGRAFÍA
 
