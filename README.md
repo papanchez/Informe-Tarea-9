@@ -10,6 +10,15 @@ OBJETIVOS ESPECÍFICOS
 
 2. MARCO TEÓRICO
 
+![image](https://user-images.githubusercontent.com/116771507/222008834-3d24660f-525a-4216-97fb-1f56b3896ad8.png)
+
+![image](https://user-images.githubusercontent.com/116771507/222008866-3bcdc2c7-8fee-403f-8ee2-b2025df6ecd9.png)
+
+![image](https://user-images.githubusercontent.com/116771507/222008891-8162594f-8ea9-43c2-b1a5-823fee570cd9.png)
+
+![image](https://user-images.githubusercontent.com/116771507/222008920-9cc69a10-9016-41d9-8c2f-ff3d8e207264.png)
+
+![image](https://user-images.githubusercontent.com/116771507/222008959-ce1b7418-8c58-46b1-be50-988e89bc75cd.png)
 
 3. RESOLUCIÓN DE EJERCICIOS:
 
