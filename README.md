@@ -3,10 +3,20 @@
 
 1. OBJETIVOS
 
-OBJETIVOS GENERALES
+OBJETVO GENERAL
 
+Comprender y aplicar correctamente los conceptos de los circuitos RLC y los filtros pasivos, mediante el análisis de los capítulos 17 y 18 del libro "Principios de circuitos eléctricos" de Thomas Floyd. Estos capítulos ofrecen una guía completa para entender el comportamiento de los circuitos que contienen resistencias, inductores y capacitores, así como también para diseñar y analizar filtros pasivos.
 
 OBJETIVOS ESPECÍFICOS
+
+* Análizar las características de los circuitos RCL, los tipos de resonancias y frecuencias, con la finalidad de profundizar en el conocimiento de las propiedades eléctricas de estos circuitos.7
+
+* Estudiar cómo los componentes de resistencia, capacitancia e inductancia interactúan entre sí y cómo esto afecta la resonancia y las frecuencias de los circuitos. 
+
+* Analizar los circuitos RC y RL en paralelo y en serie mediante la obaservación de cómo los componentes interactúan entre sí y cómo esto afecta el comportamiento eléctrico de los circuitos. 
+
+* Diferenciar entre los tipos de filtros presentados en durante el análisis del capítulo 18 y comprender sus usos es identificar las diferencias entre los filtros pasa-bajos, pasa-altos y pasa-banda, y cómo se pueden aplicar en diferentes situaciones. 
+
 
 2. MARCO TEÓRICO
 
@@ -545,6 +555,8 @@ Vsal = (Rw/(R+Rw)) x Vent = (8Ω/(2.2kΩ+8Ω) x 50V = 181 mV
 
 
 4. VIDEO
+
+https://youtube.com/watch?v=nLrY4blvkAY&si=EnSIkaIECMiOmarE
 
 5. CONCLUSIONES
 
